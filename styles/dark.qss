@@ -1,0 +1,50 @@
+#ItemCard {
+    background-color: transparent;
+    border-radius: 7px;
+    border: 1px solid #101010;
+    background-image: url("./programIcons/page-turner.png");
+    background-position: center;
+    background-repeat: no-repeat; 
+} 
+#ItemCard_Transparent2DLayer{
+    border-radius: 7px;
+    background-color: transparent;
+}
+#Transparent2DLayer_View{
+    background-color: transparent;
+    border-radius: 7px;
+}
+#ItemCard_itemName{
+    font-size: 24px;
+    font-weight: bold; 
+    width: 300px;
+}
+#ItemCard_itemReference{
+    font-size: 18px;
+    width: 150px;
+}
+#ItemCard_itemCode{
+    font-size: 18px;
+    width: 150px;
+}
+#ItemCard_itemLine{
+    font-size: 18px;
+    width: 150px;
+}
+#ItemCard_itemCapacity{
+    font-size: 18px;
+    width: 150px;
+}
+#ItemCard_itemQuantity{
+    font-size: 24px;
+    font-weight: bold;
+    width: 300px;
+}
+#OriginalCard{
+    background-color: #141414;
+    border: 1px solid #101010;
+    border-radius: 7px;
+}
+#Main_Window{
+    background-color: grey;
+}

@@ -1,0 +1,8 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <!-- Define a resource prefix 'styles' -->
+    <qresource prefix="/styles">
+        <!-- Add dark.qss with alias 'dark' -->
+        <file alias="dark">dark.qss</file>
+    </qresource>
+</RCC>
