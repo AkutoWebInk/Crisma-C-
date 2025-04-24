@@ -382,9 +382,15 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qtmochelpers.h \
- C:\Users\Alexsander\Desktop\Project\main_autogen\MY5FTBMYDX/moc_InformationHolder.cpp \
- C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/InformationHolder.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QGridLayout \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QFrame \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/OriginalCard.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QtWidgets \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QtWidgetsDepends \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QtCore \
@@ -1018,10 +1024,6 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QActionGroup \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qbuttongroup.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qcalendarwidget.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qcheckbox.h \
@@ -1056,7 +1058,6 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qformlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QLayout \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgesture.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgesturerecognizer.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgraphicsanchorlayout.h \
@@ -1082,7 +1083,6 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qscrollarea.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgraphicsscene.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgraphicswidget.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgroupbox.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qheaderview.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qinputdialog.h \
@@ -1165,10 +1165,19 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwidgetaction.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwizard.h \
- C:\Users\Alexsander\Desktop\Project\main_autogen\MY5FTBMYDX/moc_ItemCard.cpp \
- C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/ItemCard.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QMouseEvent \
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/ItemCard.h \
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/InformationHolder.h \
  C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/Transparent2DLayer.h \
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/InventoryCard.h \
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/HorizontalScrollArea.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QScrollArea \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/QWheelEvent \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QScrollBar \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qtmochelpers.h \
+ C:\Users\Alexsander\Desktop\Project\main_autogen\MY5FTBMYDX/moc_InformationHolder.cpp \
+ C:\Users\Alexsander\Desktop\Project\main_autogen\MY5FTBMYDX/moc_ItemCard.cpp \
  C:\Users\Alexsander\Desktop\Project\main_autogen\MY5FTBMYDX/moc_Transparent2DLayer.cpp \
- C:\Users\Alexsander\Desktop\Project\main_autogen\WA22N3RULB/moc_OriginalCard.cpp \
- C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/OriginalCard.h
+ C:\Users\Alexsander\Desktop\Project\main_autogen\WA22N3RULB/moc_HorizontalScrollArea.cpp \
+ C:\Users\Alexsander\Desktop\Project\main_autogen\WA22N3RULB/moc_InventoryCard.cpp \
+ C:\Users\Alexsander\Desktop\Project\main_autogen\WA22N3RULB/moc_OriginalCard.cpp

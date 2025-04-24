@@ -1,24 +1,38 @@
 #include "OriginalCard.h"
 
-OriginalCard::OriginalCard(QWidget* parent):
-    QWidget(parent), expanded(false)
+OriginalCard::OriginalCard(QWidget* parent, std::vector<OriginalCard*>&cardsOnDisplay):
+    QWidget(parent), cardsOnDisplay(cardsOnDisplay), expanded(false)
     {
-        this-> setObjectName("OriginalCard");
         this-> setAttribute(Qt::WA_StyledBackground);
-        this-> resize(200, 200);
+        this-> setFixedSize(200, 200);
+        //this-> setObjectName("OriginalCard");  // OBS
+        //this-> setCardIcon(nullptr);  // OBS
+        /*
+        OBS:
+        When creating a new card for any new system feature:
+        You only need to call setObjectName( ) and setCardIcon( ) and every other basic card behavior 
+        (expansion, interaction with the GUI and etc...) will simply be inherited from this card, 
+        simply override on_expand and on_return.
+        */
     }
 
-void OriginalCard::expand(void){
-    this->resize(this->parentWidget()->width(), parentWidget()->height());
-    onExpand();
-    setExpanded(true);
 
+void OriginalCard::expand(void){
+    iconLabel-> hide();
+    hideOtherCards(cardsOnDisplay);
+    this-> setMaximumSize(QWIDGETSIZE_MAX, QWIDGETSIZE_MAX);
+    this->resize(this->parentWidget()->width(), parentWidget()->height());
+    onExpand();  //Call hooks to load insides
+    setExpanded(true);  //Set flag to true
 }
 
 void OriginalCard::return_(void){
+    this->setFixedSize(200, 200);
     this-> resize(200, 200);
-    onReturn();
-    setExpanded(false);
+    iconLabel-> show();
+    onReturn();  //Call hooks to un-load inside widgets
+    setExpanded(false);  //Set flag to false
+    showOtherCards(cardsOnDisplay);
 
 }
 
@@ -43,14 +57,33 @@ void OriginalCard::mouseDoubleClickEvent(QMouseEvent* event){
 }
 
 void OriginalCard::resizeEvent(QResizeEvent* event){
-    qDebug()<< "Resized widget: " << this->objectName();
     QWidget::resizeEvent(event);
 }
 
 void OriginalCard::onExpand(void){
-    std::cout<<"\nonExpand()"<<std::endl;
 }
 
 void OriginalCard::onReturn(void){
-    std::cout<<"\nonReturn()"<<std::endl;
+}
+
+void OriginalCard::hideOtherCards(std::vector<OriginalCard*>& cardsOnDisplay) {
+    for (int i = 0; i < cardsOnDisplay.size(); i++) {
+        if(cardsOnDisplay[i]->objectName() != this->objectName()){
+        cardsOnDisplay[i]->hide();
+    }}
+}
+
+void OriginalCard::showOtherCards(std::vector<OriginalCard*>& cardsOnDisplay){
+    for(int i=0; i< cardsOnDisplay.size(); i++){
+        if(cardsOnDisplay[i]->objectName() != this->objectName()){
+            cardsOnDisplay[i]->show();
+        }
+    }
+}
+
+void OriginalCard::setCardIcon(QString iconPath){
+    cardIcon = QPixmap(iconPath).scaled(200,200,Qt::KeepAspectRatio,Qt::SmoothTransformation);
+    iconLabel = new QLabel(this);
+    iconLabel-> setPixmap(cardIcon);
+    iconLabel-> setFixedSize(200,200);
 }

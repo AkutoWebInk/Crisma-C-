@@ -316,6 +316,18 @@
 			null
 		],
 		[
+			"C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/HorizontalScrollArea.h",
+			"Mu",
+			"WA22N3RULB/moc_HorizontalScrollArea.cpp",
+			null
+		],
+		[
+			"C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/InventoryCard.h",
+			"Mu",
+			"WA22N3RULB/moc_InventoryCard.cpp",
+			null
+		],
+		[
 			"C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/OriginalCard.h",
 			"Mu",
 			"WA22N3RULB/moc_OriginalCard.cpp",
@@ -354,6 +366,7 @@
 		"C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard",
 		"C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard",
 		"C:/Users/Alexsander/Desktop/Project/src/Interfaces",
+		"C:/Users/Alexsander/Desktop/Project/src/Database/Items",
 		"C:/Qt/6.8.1/mingw_64/include/QtCore",
 		"C:/Qt/6.8.1/mingw_64/include",
 		"C:/Qt/6.8.1/mingw_64/mkspecs/win32-g++",
@@ -441,6 +454,16 @@
 		],
 		[
 			"C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/Transparent2DLayer.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/HorizontalScrollArea.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/InventoryCard.cpp",
 			"Mu",
 			null
 		],

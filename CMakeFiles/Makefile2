@@ -83,16 +83,16 @@ clean: CMakeFiles/main_autogen.dir/clean
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: CMakeFiles/main_autogen.dir/all
 CMakeFiles/main.dir/all: CMakeFiles/main_autogen_timestamp_deps.dir/all
+CMakeFiles/main.dir/all: CMakeFiles/main_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alexsander\Desktop\Project\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alexsander\Desktop\Project\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alexsander\Desktop\Project\CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -104,7 +104,7 @@ main: CMakeFiles/main.dir/rule
 # codegen rule for target.
 CMakeFiles/main.dir/codegen: CMakeFiles/main_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Finished codegen for target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Finished codegen for target main"
 .PHONY : CMakeFiles/main.dir/codegen
 
 # clean rule for target.
@@ -151,7 +151,7 @@ CMakeFiles/main_autogen_timestamp_deps.dir/clean:
 CMakeFiles/main_autogen.dir/all: CMakeFiles/main_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_autogen.dir\build.make CMakeFiles/main_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_autogen.dir\build.make CMakeFiles/main_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=15 "Built target main_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=17 "Built target main_autogen"
 .PHONY : CMakeFiles/main_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -168,7 +168,7 @@ main_autogen: CMakeFiles/main_autogen.dir/rule
 # codegen rule for target.
 CMakeFiles/main_autogen.dir/codegen: CMakeFiles/main_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_autogen.dir\build.make CMakeFiles/main_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=15 "Finished codegen for target main_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=17 "Finished codegen for target main_autogen"
 .PHONY : CMakeFiles/main_autogen.dir/codegen
 
 # clean rule for target.

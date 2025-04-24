@@ -109,7 +109,6 @@ void deleteItem(sqlite3*db, int id, const char* itemName){
 }
 
 void searchItem(sqlite3*db, const char* input, std::vector<Item>& vector){
-    
     // Clears the old search before anything else:
     vector.clear(); //clear the vector
     vector.shrink_to_fit();//releases its memory
@@ -121,7 +120,7 @@ void searchItem(sqlite3*db, const char* input, std::vector<Item>& vector){
     std::string search = input;
     search  = "%"+search+"%"; 
 
-    /* SQL base query: the user input will be searched in NAME, REFERENCE, CODE and LINE for broader search.
+    /* SQL base query: the user input will be searched in NAME, REFERENCE, CODE and LINE for a broader search.
     if you can remember that the item has an "A" somewhere but not exactly sure in which identifier, just type "A" and the program
     will return the items countaning "A" in these fields: */
     const char* query = "SELECT * FROM item WHERE name LIKE ? OR code LIKE ? OR line LIKE ? OR reference LIKE ? ";
@@ -144,13 +143,14 @@ void searchItem(sqlite3*db, const char* input, std::vector<Item>& vector){
             double itemCap = sqlite3_column_double(STMTquery, 5);
             int itemQtt = sqlite3_column_int(STMTquery, 6);
             const char* itemImagePath = (const char*) sqlite3_column_text(STMTquery, 7);
+           
             // Creates the item object to be added to the list of items returned by the search:
-            Item itemResponse(itemId, 
-            std::string(itemName), 
-            std::string(itemRef), 
-            std::string(itemCode), 
-            std::string(itemLine), 
-            itemCap, itemQtt, 
+            Item itemResponse(itemId,
+            std::string(itemName),
+            std::string(itemRef),
+            std::string(itemCode),
+            std::string(itemLine),
+            itemCap, itemQtt,
             std::string(itemImagePath));
             vector.push_back(itemResponse);
             std::cout << std::string(itemName)+ " " +std::string(itemRef)+ " " +std::string(itemCode)<<+ " " +std::string(itemLine)<<+ " " +std::string(itemImagePath) <<std::endl;

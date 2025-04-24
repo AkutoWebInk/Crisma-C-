@@ -292,6 +292,7 @@ main_autogen/timestamp: \
 	C:/Qt/6.8.1/mingw_64/include/QtGui/QSurfaceFormat \
 	C:/Qt/6.8.1/mingw_64/include/QtGui/QTransform \
 	C:/Qt/6.8.1/mingw_64/include/QtGui/QVector3D \
+	C:/Qt/6.8.1/mingw_64/include/QtGui/QWheelEvent \
 	C:/Qt/6.8.1/mingw_64/include/QtGui/QWindow \
 	C:/Qt/6.8.1/mingw_64/include/QtGui/QtGui \
 	C:/Qt/6.8.1/mingw_64/include/QtGui/QtGuiDepends \
@@ -410,8 +411,12 @@ main_autogen/timestamp: \
 	C:/Qt/6.8.1/mingw_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.8.1/mingw_64/include/QtGui/qwindowsmimeconverter.h \
 	C:/Qt/6.8.1/mingw_64/include/QtWidgets/QCommonStyle \
+	C:/Qt/6.8.1/mingw_64/include/QtWidgets/QFrame \
+	C:/Qt/6.8.1/mingw_64/include/QtWidgets/QGridLayout \
 	C:/Qt/6.8.1/mingw_64/include/QtWidgets/QLayout \
 	C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
+	C:/Qt/6.8.1/mingw_64/include/QtWidgets/QScrollArea \
+	C:/Qt/6.8.1/mingw_64/include/QtWidgets/QScrollBar \
 	C:/Qt/6.8.1/mingw_64/include/QtWidgets/QScrollerProperties \
 	C:/Qt/6.8.1/mingw_64/include/QtWidgets/QtWidgets \
 	C:/Qt/6.8.1/mingw_64/include/QtWidgets/QtWidgetsDepends \
@@ -738,6 +743,10 @@ main_autogen/timestamp: \
 	C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/ItemCard.h \
 	C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/Transparent2DLayer.cpp \
 	C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/Transparent2DLayer.h \
+	C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/HorizontalScrollArea.cpp \
+	C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/HorizontalScrollArea.h \
+	C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/InventoryCard.cpp \
+	C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/InventoryCard.h \
 	C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/OriginalCard.cpp \
 	C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/OriginalCard.h \
 	C:/Users/Alexsander/Desktop/Project/src/main.cpp \

@@ -13,7 +13,9 @@ Transparent2DLayer::Transparent2DLayer(const QString& itemImagePath, QWidget *pa
     QGraphicsView *View = new QGraphicsView(Scene, this);
    
     View-> setObjectName("Transparent2DLayer_View");
-    View-> setRenderHints(QPainter::Antialiasing | QPainter::SmoothPixmapTransform);    
+    View-> setRenderHints(QPainter::Antialiasing | QPainter::SmoothPixmapTransform); 
+    View-> setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    View-> setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff); 
     View-> setAttribute(Qt::WA_TransparentForMouseEvents);
     View-> setGeometry(0,0, 300, 300);
     View-> show();
@@ -60,7 +62,7 @@ void Transparent2DLayer::mouseMoveEvent(QMouseEvent* event){
     xAxis->setProperty("angle", y);
     yAxis->setProperty("angle", x);
 
-    std::cout << "X: " << x << " Y: " << y << " Z: " << zAngle << std::endl;
+    //std::cout << "X: " << x << " Y: " << y << " Z: " << zAngle << std::endl;
 }
 
 

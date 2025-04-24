@@ -2,9 +2,9 @@
     background-color: transparent;
     border-radius: 7px;
     border: 1px solid #101010;
-    background-image: url("./programIcons/page-turner.png");
+    background-image: url("programIcons/CardBackground.png");
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 } 
 #ItemCard_Transparent2DLayer{
     border-radius: 7px;
@@ -40,11 +40,54 @@
     font-weight: bold;
     width: 300px;
 }
-#OriginalCard{
-    background-color: #141414;
-    border: 1px solid #101010;
-    border-radius: 7px;
+
+
+#InventoryCard{
+background-color: #141414;
+border: 0px solid #202020;
+border-radius: 5px;
 }
-#Main_Window{
-    background-color: grey;
+
+#MainWindow{
+    background-color: #141414;
+}
+
+#scrollAreaBackground{
+    background-color: #141414;
+}
+
+QScrollArea {
+    background-color: #141414;
+    border:0px;
+}
+
+/* Target horizontal scrollbar specifically */
+QScrollBar:horizontal {
+
+    min-height: 14px;
+}
+
+QScrollBar::handle:horizontal {
+    min-height: 14px;
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    min-height: 14px;
+}
+
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal {
+    min-height: 14px;
+}
+
+#Docker{
+    border: 1px solid #131313;
+    border-radius:5px;
+    background-color: #101010;
+}
+#DockerWidget{
+    background-color: #202020;
+    border-radius: 5px;
+
 }

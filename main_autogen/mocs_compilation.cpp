@@ -3,4 +3,6 @@
 #include "MY5FTBMYDX/moc_InformationHolder.cpp"
 #include "MY5FTBMYDX/moc_ItemCard.cpp"
 #include "MY5FTBMYDX/moc_Transparent2DLayer.cpp"
+#include "WA22N3RULB/moc_HorizontalScrollArea.cpp"
+#include "WA22N3RULB/moc_InventoryCard.cpp"
 #include "WA22N3RULB/moc_OriginalCard.cpp"

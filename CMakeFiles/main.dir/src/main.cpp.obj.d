@@ -381,42 +381,15 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
- C:/Users/Alexsander/Desktop/Project/src/Functions/mainFileFunctions.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreevent.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qdeadlinetimer.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qelapsedtimer.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qeventloop.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qnativeinterface.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/QFile \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qfile.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qfiledevice.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qiodevice.h \
- C:/msys64/mingw64/include/c++/14.2.0/filesystem \
- C:/msys64/mingw64/include/c++/14.2.0/bits/fs_fwd.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/fs_path.h \
- C:/msys64/mingw64/include/c++/14.2.0/locale \
- C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.h \
- C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/time_members.h \
- C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/codecvt.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.tcc \
- C:/msys64/mingw64/include/c++/14.2.0/bits/locale_conv.h \
- C:/msys64/mingw64/include/c++/14.2.0/iomanip \
- C:/msys64/mingw64/include/c++/14.2.0/bits/quoted_string.h \
- C:/msys64/mingw64/include/c++/14.2.0/sstream \
- C:/msys64/mingw64/include/c++/14.2.0/bits/sstream.tcc \
- C:/msys64/mingw64/include/c++/14.2.0/codecvt \
- C:/msys64/mingw64/include/c++/14.2.0/bits/fs_dir.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/fs_ops.h \
- C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/ItemCard.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QGridLayout \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QFrame \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/OriginalCard.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QtWidgets \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QtWidgetsDepends \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QtCore \
@@ -437,6 +410,9 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/q26numeric.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractanimation.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qeventloop.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qelapsedtimer.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractproxymodel.h \
@@ -449,6 +425,10 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QMutex \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qmutex.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtsan_impl.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreevent.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qnativeinterface.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qarraydata.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qarraydataops.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qarraydatapointer.h \
@@ -460,6 +440,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qbindingstorage.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qbitarray.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qbuffer.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearray.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearrayalgorithms.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearraylist.h \
@@ -468,6 +449,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearrayview.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcache.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcborarray.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcborvalue.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcborcommon.h \
@@ -512,7 +494,25 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qdebug.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qdir.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qdirlisting.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qfiledevice.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qfile.h \
+ C:/msys64/mingw64/include/c++/14.2.0/filesystem \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/fs_fwd.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/fs_path.h \
+ C:/msys64/mingw64/include/c++/14.2.0/locale \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/time_members.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/codecvt.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/locale_conv.h \
+ C:/msys64/mingw64/include/c++/14.2.0/iomanip \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/quoted_string.h \
+ C:/msys64/mingw64/include/c++/14.2.0/sstream \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/sstream.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/codecvt \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/fs_dir.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/fs_ops.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qfileinfo.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtimezone.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qdiriterator.h \
@@ -525,6 +525,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qexception.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qexceptionhandling.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qfactoryinterface.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qfile.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qfiledevice.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qfileinfo.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qfileselector.h \
@@ -850,6 +851,9 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QTransform \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qtransform.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qscreen_platform.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qglyphrun.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qrawfont.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qfontdatabase.h \
@@ -1017,11 +1021,8 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QAction \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qactiongroup.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QActionGroup \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qbuttongroup.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qcalendarwidget.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qcheckbox.h \
@@ -1056,7 +1057,6 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qformlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QLayout \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgesture.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgesturerecognizer.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgraphicsanchorlayout.h \
@@ -1082,7 +1082,6 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qscrollarea.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgraphicsscene.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgraphicswidget.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgroupbox.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qheaderview.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qinputdialog.h \
@@ -1166,6 +1165,14 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwidgetaction.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwizard.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QMouseEvent \
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/ItemCard.h \
  C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/InformationHolder.h \
  C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/Transparent2DLayer.h \
- C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/OriginalCard.h
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/InventoryCard.h \
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/HorizontalScrollArea.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QScrollArea \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/QWheelEvent \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QScrollBar \
+ C:/Users/Alexsander/Desktop/Project/src/Functions/mainFileFunctions.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QFile

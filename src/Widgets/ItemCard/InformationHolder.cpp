@@ -37,6 +37,7 @@ setLayout(gridLayout);
 }
 
 QLabel* InformationHolder::QTextLabel(const QString& labelText, const QString& objectName){
+    
     QLabel* label = new QLabel(this);
     label-> setText(labelText);
     label-> setObjectName("ItemCard_" + objectName);

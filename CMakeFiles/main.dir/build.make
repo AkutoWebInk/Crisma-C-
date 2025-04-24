@@ -204,11 +204,41 @@ CMakeFiles/main.dir/src/Widgets/ItemCard/Transparent2DLayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Widgets/ItemCard/Transparent2DLayer.cpp.s"
 	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alexsander\Desktop\Project\src\Widgets\ItemCard\Transparent2DLayer.cpp -o CMakeFiles\main.dir\src\Widgets\ItemCard\Transparent2DLayer.cpp.s
 
+CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj: src/Widgets/WindowCard/HorizontalScrollArea.cpp
+CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj -MF CMakeFiles\main.dir\src\Widgets\WindowCard\HorizontalScrollArea.cpp.obj.d -o CMakeFiles\main.dir\src\Widgets\WindowCard\HorizontalScrollArea.cpp.obj -c C:\Users\Alexsander\Desktop\Project\src\Widgets\WindowCard\HorizontalScrollArea.cpp
+
+CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alexsander\Desktop\Project\src\Widgets\WindowCard\HorizontalScrollArea.cpp > CMakeFiles\main.dir\src\Widgets\WindowCard\HorizontalScrollArea.cpp.i
+
+CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alexsander\Desktop\Project\src\Widgets\WindowCard\HorizontalScrollArea.cpp -o CMakeFiles\main.dir\src\Widgets\WindowCard\HorizontalScrollArea.cpp.s
+
+CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.obj: src/Widgets/WindowCard/InventoryCard.cpp
+CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.obj"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.obj -MF CMakeFiles\main.dir\src\Widgets\WindowCard\InventoryCard.cpp.obj.d -o CMakeFiles\main.dir\src\Widgets\WindowCard\InventoryCard.cpp.obj -c C:\Users\Alexsander\Desktop\Project\src\Widgets\WindowCard\InventoryCard.cpp
+
+CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alexsander\Desktop\Project\src\Widgets\WindowCard\InventoryCard.cpp > CMakeFiles\main.dir\src\Widgets\WindowCard\InventoryCard.cpp.i
+
+CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alexsander\Desktop\Project\src\Widgets\WindowCard\InventoryCard.cpp -o CMakeFiles\main.dir\src\Widgets\WindowCard\InventoryCard.cpp.s
+
 CMakeFiles/main.dir/src/Widgets/WindowCard/OriginalCard.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Widgets/WindowCard/OriginalCard.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/Widgets/WindowCard/OriginalCard.cpp.obj: src/Widgets/WindowCard/OriginalCard.cpp
 CMakeFiles/main.dir/src/Widgets/WindowCard/OriginalCard.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/Widgets/WindowCard/OriginalCard.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/Widgets/WindowCard/OriginalCard.cpp.obj"
 	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Widgets/WindowCard/OriginalCard.cpp.obj -MF CMakeFiles\main.dir\src\Widgets\WindowCard\OriginalCard.cpp.obj.d -o CMakeFiles\main.dir\src\Widgets\WindowCard\OriginalCard.cpp.obj -c C:\Users\Alexsander\Desktop\Project\src\Widgets\WindowCard\OriginalCard.cpp
 
 CMakeFiles/main.dir/src/Widgets/WindowCard/OriginalCard.cpp.i: cmake_force
@@ -223,7 +253,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/main.cpp.obj: src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
 	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.obj -MF CMakeFiles\main.dir\src\main.cpp.obj.d -o CMakeFiles\main.dir\src\main.cpp.obj -c C:\Users\Alexsander\Desktop\Project\src\main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
@@ -238,7 +268,7 @@ CMakeFiles/main.dir/qrc_styles.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/qrc_styles.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/qrc_styles.cpp.obj: qrc_styles.cpp
 CMakeFiles/main.dir/qrc_styles.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/qrc_styles.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/qrc_styles.cpp.obj"
 	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/qrc_styles.cpp.obj -MF CMakeFiles\main.dir\qrc_styles.cpp.obj.d -o CMakeFiles\main.dir\qrc_styles.cpp.obj -c C:\Users\Alexsander\Desktop\Project\qrc_styles.cpp
 
 CMakeFiles/main.dir/qrc_styles.cpp.i: cmake_force
@@ -259,6 +289,8 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/Widgets/ItemCard/InformationHolder.cpp.obj" \
 "CMakeFiles/main.dir/src/Widgets/ItemCard/ItemCard.cpp.obj" \
 "CMakeFiles/main.dir/src/Widgets/ItemCard/Transparent2DLayer.cpp.obj" \
+"CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj" \
+"CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.obj" \
 "CMakeFiles/main.dir/src/Widgets/WindowCard/OriginalCard.cpp.obj" \
 "CMakeFiles/main.dir/src/main.cpp.obj" \
 "CMakeFiles/main.dir/qrc_styles.cpp.obj"
@@ -274,6 +306,8 @@ build/main.exe: CMakeFiles/main.dir/src/Interfaces/MainWindow.cpp.obj
 build/main.exe: CMakeFiles/main.dir/src/Widgets/ItemCard/InformationHolder.cpp.obj
 build/main.exe: CMakeFiles/main.dir/src/Widgets/ItemCard/ItemCard.cpp.obj
 build/main.exe: CMakeFiles/main.dir/src/Widgets/ItemCard/Transparent2DLayer.cpp.obj
+build/main.exe: CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj
+build/main.exe: CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.obj
 build/main.exe: CMakeFiles/main.dir/src/Widgets/WindowCard/OriginalCard.cpp.obj
 build/main.exe: CMakeFiles/main.dir/src/main.cpp.obj
 build/main.exe: CMakeFiles/main.dir/qrc_styles.cpp.obj
@@ -284,7 +318,7 @@ build/main.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6Core.a
 build/main.exe: CMakeFiles/main.dir/linkLibs.rsp
 build/main.exe: CMakeFiles/main.dir/objects1.rsp
 build/main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable build\main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Alexsander\Desktop\Project\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable build\main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

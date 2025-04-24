@@ -1,4 +1,3 @@
-
 cmake_minimum_required(VERSION 3.16)  # Qt 6 requires CMake 3.16+
 project(main CXX)
 
@@ -6,27 +5,20 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_COMPILER "g++")  # Ensure this matches your Qt kit (e.g., MinGW)
 
-
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build)
 
-
 find_package(Qt6 COMPONENTS 
-    Core        # Core Qt components
-    Widgets     # GUI components (buttons, windows)
-    REQUIRED    # Mandatory
+    Core
+    Widgets
+    REQUIRED
     Charts
-
 )
-
-
 
 qt_add_resources(RESOURCE_FILES
-    "styles/styles.qrc"  # Path to your resource file (relative to CMakeLists.txt)
+    "styles/styles.qrc"
 )
 
-
 set(CMAKE_AUTOMOC ON)
-
 
 include_directories(
     ${CMAKE_SOURCE_DIR}/include/SQLite3
@@ -35,8 +27,8 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/src/Widgets/ItemCard
     ${CMAKE_SOURCE_DIR}/src/Widgets/WindowCard
     ${CMAKE_SOURCE_DIR}/src/Interfaces
+    ${CMAKE_SOURCE_DIR}/src/Database/Items
 )
-
 
 file(GLOB SRC_FILES 
     ${CMAKE_SOURCE_DIR}/src/*.cpp 
@@ -48,17 +40,17 @@ file(GLOB SRC_FILES
     ${CMAKE_SOURCE_DIR}/src/Interfaces/*.cpp
 )
 
-
+# Copy images to build directory
+file(COPY ${CMAKE_SOURCE_DIR}/src/Database/Items DESTINATION ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/src/Database)
 
 add_executable(${PROJECT_NAME} 
     ${SRC_FILES}
-    ${RESOURCE_FILES}  # Add compiled resources (e.g., styles.qrc)
+    ${RESOURCE_FILES}
 )
 
-
 target_link_libraries(${PROJECT_NAME} PRIVATE
-    pthread      # Threading for SQLite3
-    sqlite3      # SQLite3 C library
-    Qt6::Core    # Qt core
-    Qt6::Widgets # GUI components
+    pthread
+    sqlite3
+    Qt6::Core
+    Qt6::Widgets
 )

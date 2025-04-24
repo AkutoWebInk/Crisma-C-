@@ -381,6 +381,14 @@ CMakeFiles/main.dir/src/Interfaces/MainWindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QGridLayout \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QFrame \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
  C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/OriginalCard.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QtWidgets \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QtWidgetsDepends \
@@ -1015,10 +1023,6 @@ CMakeFiles/main.dir/src/Interfaces/MainWindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QActionGroup \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qbuttongroup.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qcalendarwidget.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qcheckbox.h \
@@ -1053,7 +1057,6 @@ CMakeFiles/main.dir/src/Interfaces/MainWindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qformlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QLayout \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgesture.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgesturerecognizer.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgraphicsanchorlayout.h \
@@ -1079,7 +1082,6 @@ CMakeFiles/main.dir/src/Interfaces/MainWindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qscrollarea.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgraphicsscene.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgraphicswidget.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgroupbox.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qheaderview.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qinputdialog.h \
@@ -1163,6 +1165,11 @@ CMakeFiles/main.dir/src/Interfaces/MainWindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwidgetaction.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwizard.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QMouseEvent \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QToolBar \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMenuBar \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QGridLayout
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/ItemCard.h \
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/InformationHolder.h \
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/Transparent2DLayer.h \
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/InventoryCard.h \
+ C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/HorizontalScrollArea.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QScrollArea \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/QWheelEvent \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QScrollBar

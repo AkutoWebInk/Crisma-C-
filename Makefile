@@ -370,6 +370,54 @@ src/Widgets/ItemCard/Transparent2DLayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Widgets/ItemCard/Transparent2DLayer.cpp.s
 .PHONY : src/Widgets/ItemCard/Transparent2DLayer.cpp.s
 
+src/Widgets/WindowCard/HorizontalScrollArea.obj: src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj
+.PHONY : src/Widgets/WindowCard/HorizontalScrollArea.obj
+
+# target to build an object file
+src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj
+.PHONY : src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj
+
+src/Widgets/WindowCard/HorizontalScrollArea.i: src/Widgets/WindowCard/HorizontalScrollArea.cpp.i
+.PHONY : src/Widgets/WindowCard/HorizontalScrollArea.i
+
+# target to preprocess a source file
+src/Widgets/WindowCard/HorizontalScrollArea.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.i
+.PHONY : src/Widgets/WindowCard/HorizontalScrollArea.cpp.i
+
+src/Widgets/WindowCard/HorizontalScrollArea.s: src/Widgets/WindowCard/HorizontalScrollArea.cpp.s
+.PHONY : src/Widgets/WindowCard/HorizontalScrollArea.s
+
+# target to generate assembly for a file
+src/Widgets/WindowCard/HorizontalScrollArea.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.s
+.PHONY : src/Widgets/WindowCard/HorizontalScrollArea.cpp.s
+
+src/Widgets/WindowCard/InventoryCard.obj: src/Widgets/WindowCard/InventoryCard.cpp.obj
+.PHONY : src/Widgets/WindowCard/InventoryCard.obj
+
+# target to build an object file
+src/Widgets/WindowCard/InventoryCard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.obj
+.PHONY : src/Widgets/WindowCard/InventoryCard.cpp.obj
+
+src/Widgets/WindowCard/InventoryCard.i: src/Widgets/WindowCard/InventoryCard.cpp.i
+.PHONY : src/Widgets/WindowCard/InventoryCard.i
+
+# target to preprocess a source file
+src/Widgets/WindowCard/InventoryCard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.i
+.PHONY : src/Widgets/WindowCard/InventoryCard.cpp.i
+
+src/Widgets/WindowCard/InventoryCard.s: src/Widgets/WindowCard/InventoryCard.cpp.s
+.PHONY : src/Widgets/WindowCard/InventoryCard.s
+
+# target to generate assembly for a file
+src/Widgets/WindowCard/InventoryCard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.s
+.PHONY : src/Widgets/WindowCard/InventoryCard.cpp.s
+
 src/Widgets/WindowCard/OriginalCard.obj: src/Widgets/WindowCard/OriginalCard.cpp.obj
 .PHONY : src/Widgets/WindowCard/OriginalCard.obj
 
@@ -456,6 +504,12 @@ help:
 	@echo ... src/Widgets/ItemCard/Transparent2DLayer.obj
 	@echo ... src/Widgets/ItemCard/Transparent2DLayer.i
 	@echo ... src/Widgets/ItemCard/Transparent2DLayer.s
+	@echo ... src/Widgets/WindowCard/HorizontalScrollArea.obj
+	@echo ... src/Widgets/WindowCard/HorizontalScrollArea.i
+	@echo ... src/Widgets/WindowCard/HorizontalScrollArea.s
+	@echo ... src/Widgets/WindowCard/InventoryCard.obj
+	@echo ... src/Widgets/WindowCard/InventoryCard.i
+	@echo ... src/Widgets/WindowCard/InventoryCard.s
 	@echo ... src/Widgets/WindowCard/OriginalCard.obj
 	@echo ... src/Widgets/WindowCard/OriginalCard.i
 	@echo ... src/Widgets/WindowCard/OriginalCard.s

@@ -18,6 +18,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/InformationHolder.cpp" "CMakeFiles/main.dir/src/Widgets/ItemCard/InformationHolder.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Widgets/ItemCard/InformationHolder.cpp.obj.d"
   "C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/ItemCard.cpp" "CMakeFiles/main.dir/src/Widgets/ItemCard/ItemCard.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Widgets/ItemCard/ItemCard.cpp.obj.d"
   "C:/Users/Alexsander/Desktop/Project/src/Widgets/ItemCard/Transparent2DLayer.cpp" "CMakeFiles/main.dir/src/Widgets/ItemCard/Transparent2DLayer.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Widgets/ItemCard/Transparent2DLayer.cpp.obj.d"
+  "C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/HorizontalScrollArea.cpp" "CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Widgets/WindowCard/HorizontalScrollArea.cpp.obj.d"
+  "C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/InventoryCard.cpp" "CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Widgets/WindowCard/InventoryCard.cpp.obj.d"
   "C:/Users/Alexsander/Desktop/Project/src/Widgets/WindowCard/OriginalCard.cpp" "CMakeFiles/main.dir/src/Widgets/WindowCard/OriginalCard.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Widgets/WindowCard/OriginalCard.cpp.obj.d"
   "C:/Users/Alexsander/Desktop/Project/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
   )
